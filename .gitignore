@@ -1,0 +1,21 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment settings
+.env
+
+# User-specific files
+.idea/
+.vscode/
+*.pyc
+*.pyo
+
+# Dependency directories
+venv/
+env/
+env36/
+env37/
+env38/
+env39/
