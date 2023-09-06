@@ -13,7 +13,6 @@ __pycache__/
 *.pyo
 
 # Dependency directories
-venv/
 env/
 env36/
 env37/
