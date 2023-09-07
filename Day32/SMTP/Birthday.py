@@ -5,13 +5,6 @@
 # 4. Update birthdays.csv to contain today's month and day.
 # See the solution video in the 100 Days of Python Course for explanations
 
-
-from datetime import datetime
-import pandas
-import random
-import smtplib
-
-
 from datetime import datetime
 import pandas as pd
 import random
@@ -58,7 +51,7 @@ if not today_birthdays.empty:
             # Send the birthday email
             connection.sendmail(
                 from_addr=MY_EMAIL,
-                to_addrs=row["email"],
+                to_addrs=row["email"],  
                 msg=f"Subject: Happy Birthday!\n\n{customized_letter}"
             )
 
